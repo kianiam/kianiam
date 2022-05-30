@@ -59,6 +59,11 @@ a {
     box-shadow: 10px 10px 8px #888888;
 }
 
+.responsive-avatar {
+    width: 100%;
+    height: auto;
+}
+
 h6 {
     font-size: 1.25rem;
     margin-bottom: 15px;
@@ -92,10 +97,6 @@ h6 {
 
 .pegah {
     margin-bottom: 25px;
-}
-
-.language {
-    margin-bottom: 100px;
 }
 
 .language p {
@@ -212,4 +213,13 @@ p.edu-description {
 
 .footer {
     height: 100px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    .responsive-avatar {
+        display: none;
+    }
 }
