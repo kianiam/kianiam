@@ -54,9 +54,10 @@ a {
 }
 
 .avatar img {
-    border-radius: 0.25em;
+    border-radius: 20em;
     max-width: 100%;
     box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 30px;
 }
 
 .responsive-avatar {
